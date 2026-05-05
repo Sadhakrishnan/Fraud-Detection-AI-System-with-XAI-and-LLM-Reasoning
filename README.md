@@ -18,14 +18,3 @@ The system includes:
 * Provides feature-level explanations using SHAP
 * Generates human-readable explanations (with or without OpenAI API)
 * Interactive dashboard for testing transactions
-
-## Project Structure
-
-.
-├── train_model.py       # Data generation and model training
-├── main.py              # FastAPI backend
-├── llm_service.py       # Explanation logic
-├── app.py               # Streamlit frontend
-├── model.joblib         # Saved model
-├── requirements.txt
-└── .env                 # Optional API key
